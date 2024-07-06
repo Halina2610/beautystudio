@@ -1,0 +1,25 @@
+ErrorDocument 403 /page48173951.html
+ErrorDocument 404 /page48173951.html
+
+DirectoryIndex page42908422.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^zsady_ochrany_osobnch_daj$ page47321239.html [NC]
+RewriteRule ^zsady_ochrany_osobnch_daj/$ page47321239.html [NC]
+
+RewriteRule ^error404$ page48173951.html [NC]
+RewriteRule ^error404/$ page48173951.html [NC]
+
+RewriteRule ^program_kolen_italskou_technikou_za_tepla$ page48197465.html [NC]
+RewriteRule ^program_kolen_italskou_technikou_za_tepla/$ page48197465.html [NC]
+
+RewriteRule ^program_kolen_panlskou_technikou_za_studena$ page48223505.html [NC]
+RewriteRule ^program_kolen_panlskou_technikou_za_studena/$ page48223505.html [NC]
+
+RewriteRule ^members/ ma_start.html [NC]
+
+
